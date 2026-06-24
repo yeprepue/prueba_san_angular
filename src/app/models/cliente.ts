@@ -1,5 +1,7 @@
-export interface cliente {
+export interface Cliente {
   id: number;
-  nombre: String;
-  image:string
+  nombre: string;
+  email: string;
+  categoria: string;
+  estado: number;
 }
