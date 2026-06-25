@@ -6,11 +6,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListaClientesComponent } from './pages/lista-clientes/lista-clientes.component';
+import { NotificacionesComponent } from './components/notificaciones/notificaciones.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaClientesComponent
+    ListaClientesComponent,
+    NotificacionesComponent
   ],
   imports: [
     BrowserModule,
